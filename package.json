@@ -1,0 +1,50 @@
+{
+  "name": "@qrac/darkbox-gallery",
+  "description": "Simple, minimal, responsive jQuery Pop-up Gallery!",
+  "version": "1.0.0",
+  "main": "dist/js/darkbox.min.js",
+  "license": "MIT",
+  "homepage": "https://github.com/qrac/darkbox-gallery",
+  "repository": "https://github.com/qrac/darkbox-gallery",
+  "bugs": "https://github.com/qrac/darkbox-gallery/issues",
+  "keywords": [
+    "javascript",
+    "jquery",
+    "jquery-plugin",
+    "gallery",
+    "photo-gallery",
+    "japanese"
+  ],
+  "author": {
+    "name": "Qrac",
+    "url": "https://qrac.jp"
+  },
+  "organization": {
+    "name": "QRANOKO",
+    "url": "https://qranoko.jp"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "autoprefixer": "^9.1.5",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-header": "^2.0.5",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-uglify": "^3.0.1",
+    "node-sass-package-importer": "^5.2.0",
+    "postcss-flexbugs-fixes": "^4.1.0"
+  }
+}
